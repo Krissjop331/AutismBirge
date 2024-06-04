@@ -1,0 +1,153 @@
+
+
+
+.profile_continer{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: calc(100% - 160px);
+  margin: 0 auto;
+}
+
+h1{
+  margin-right: 40px;
+}
+
+.navbar{
+  width: calc(100% - 160px);
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+@media (max-width: 1432px) {
+  .navbar {
+      display: flex;
+  }
+
+  .menu {
+      display: flex;
+  }
+}
+
+@media screen and (max-width: 1432px) {
+  .img {
+    min-width: 200px;
+    height: 200px;
+  }
+  .imgPr {
+    min-width: 200px;
+    height: 200px;
+  }
+
+  
+}
+.img {
+  min-width: 200px;
+  height: 200px;
+}
+.imgPr {
+  min-width: 200px;
+  height: 200px;
+}
+
+.Contact{
+  margin-top: 60px;
+}
+
+.aboutprofile{
+  margin-top: 60px;
+}
+.containers_wrap p{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.img{
+  background-color: #D9D9D9;
+  border-radius: 10px;
+
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.imgPr {
+  min-width: 300px;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.img input {
+  position: absolute;
+  color: #fff;
+}
+
+.custom-file-upload {
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  padding:  6px;
+  min-width: 100px;
+  max-width: 35%;
+  height: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  top: 80%;
+  bottom: 0;
+  left: 35%;
+  right: 0;
+  opacity: 40%;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+  opacity: 100%;
+  transition: all .3s ease;
+}
+
+.Contact .containers{
+  background-color: #F2F2F2;
+  border: 2px solid #192E47;
+  border-radius: 5px;
+  width: 255px;
+  height: 100px;
+  margin-top: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.Contact img{
+  margin-right: 20px;
+}
+
+.Contact p{
+  margin-bottom: 11px;
+}
+
+@media screen and (max-width: 1499px) {
+  .profile_continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .registerblock {
+    margin-top: 30px !important;
+  }
+  .containers_wrap {
+    display: flex;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,21 @@
+.news_filter{
+  padding: 15px;
+  width: 211px;
+  background-color: #F1F7FF;
+  box-sizing: border-box;
+}
+
+.news_filters .news_filter h3{
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+.news_custom-form .news_form-group .custom-select{
+  margin-top: 5px;
+}
+
+
+.react-datepicker__navigation{
+  
+  background: none;
+}

@@ -1,0 +1,167 @@
+.resources {
+    margin-bottom: 50px;
+}
+
+.accordion-item {
+    box-shadow:  0 -4px 4px -3px #192E47;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .accordion-item.open {
+   display: block;
+  }
+.accordion-item:hover {
+    box-shadow:  0 -4px 4px 0px #192E47;
+}
+  
+    .wrapper {
+        overflow: hidden;
+    }
+ 
+  .wrapper .accordion-item {
+    margin-bottom: 30px;
+  }
+  .resources h1 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .zag-text {
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 180%;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  a {
+    color: #000;
+    font-size: 18px;
+
+}
+
+  .accordion-header {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .title {
+    padding-right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .content-wrap {
+    /* border-bottom: 1px solid #192E47; */
+    padding-bottom: 30px;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+  }
+  .open .accordion-content{
+    opacity: 1;
+    margin: 30px 0px 30px 30px;
+    padding-bottom: 30px;
+  }
+  .arrow {
+    transform: rotate(90deg);
+  }
+  
+  .accordion-item.open .arrow {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-item.open .accordion-content {
+    max-height: 100%; 
+  }
+  .svg {
+    width: 30px;
+    height: 30px;
+    fill: #192E47;
+  }
+
+  .container {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    transition: all .3s ease;
+  }
+
+   .container:hover {
+    transition: all .3s ease;
+    margin-top: 35px;
+    cursor: pointer;
+  }
+
+
+  .containers {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    margin-top: 30px;
+    padding-left: 20px;
+    transition: all .3s ease;
+  }
+
+   .containers:hover {
+    transition: all .3s ease;
+    margin-top: 35px;
+    cursor: pointer;
+  }
+
+  .file-containers button {
+    border: none;
+    background: transparent;
+    fill: #192E47;
+    transition: all .5s ease;
+  }
+
+  .file-containers button:hover {
+    transition: all .5s ease;
+
+    fill: #6ca1e1;
+  }
+
+
+  .file-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .file-container button {
+    border: none;
+    background: transparent;
+    fill: #192E47;
+    transition: all .5s ease;
+  }
+
+  .file-container button:hover {
+    transition: all .5s ease;
+
+    fill: #6ca1e1;
+  }
+
+  

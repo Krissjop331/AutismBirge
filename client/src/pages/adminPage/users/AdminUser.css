@@ -1,0 +1,124 @@
+/* Forum.css */
+.adminUsers {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.adminUsers h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adminforumItem.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+.adminforumItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.adminforumItem:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.forumId, .forumTitle {
+    flex: 1;
+    text-align: left;
+    padding: 0 10px;
+    word-wrap: break-word;
+}
+
+.adminButtonGroups {
+    display: flex;
+    gap: 10px;
+}
+
+.head-button input {
+
+}
+
+.head-button input:hover {
+    min-width: 100px;
+    width: auto;
+    background: #1A2E47;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+
+.adminforumItem input, 
+.modal-overlay button {
+    min-width: 100px;
+    width: auto;
+    background: #1A2E47;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+
+.adminforumItem input:hover {
+    background: #FFF;
+    color: #1A2E47;
+}
+
+.adminBlank {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.adminBlank h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adminBlank form {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminBlank label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.adminBlank input[type='text'],
+.adminBlank input[type='email'],
+.adminBlank input[type='password'],
+.adminBlank input[type='date'],
+.adminBlank input[type='tel'] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.adminBlank button[type='submit'] {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.adminBlank button[type='submit']:hover {
+    background-color: #45a049;
+}

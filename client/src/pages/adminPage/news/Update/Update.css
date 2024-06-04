@@ -1,0 +1,48 @@
+.update-news .news-block.selected {
+  border: 4px solid #192E47;
+}
+
+.tags .taggs.selected {
+  border: 3px solid #192E47;
+}
+
+.selected {
+  background-color: #192E47;
+}
+
+.newsandtags {
+  margin-bottom: 20px;
+}
+
+.newsandtags select {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.resources-table {
+  margin-top: 20px;
+}
+
+.resources-table h2 {
+  margin-bottom: 10px;
+}
+
+.resources-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resources-table th,
+.resources-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.resources-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(.../../../../../../fonts/Gilroy/Gilroy-Medium.ttf);
+}
+
+
+.rectangle{
+  border: 2px solid #192E47;
+  border-radius: 5px;
+  box-sizing: border-box;
+ margin-bottom:30px ;
+ width: 100%;
+ padding: 15px;
+
+ font-size:18px ;
+ color:#000000 ;
+ line-height:21.6px ;
+ font-weight: 400;
+ font-family: Gilroy;
+}          
+
+.register_container{
+width: 100%;
+}
+
+.register_min_container{
+  margin: 20px auto;
+  width: 600px;
+}
+
+.register_min_container .btn{
+  background-color:#192E47 ;
+  color:#FFFFFF ;
+  font-size:16px ;
+  line-height:19.6px ;
+  font-weight: 400;
+  font-family: Gilroy;
+  width: 100%;
+}

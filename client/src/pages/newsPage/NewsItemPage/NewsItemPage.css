@@ -1,0 +1,116 @@
+.news_item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #F1F7FF;
+    margin-top: 70px !important;
+
+    border-radius: 10px;
+    padding: 40px;
+    border: 2px solid rgba(55, 99, 166, 50%);
+    max-width: 1300px;
+    margin: auto;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    hr {
+        margin-top: -10px;
+    }
+
+    .small_info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 30px;
+
+        .tags {
+            display: flex;
+            gap: 10px;  
+    
+                a {
+                font-family: 'Gilroy';
+                font-weight: normal;
+                font-size: 16px;
+                color: #7495BB;
+                transition: all .2s ease;
+        
+                &:hover {
+                    color: #4c617a;
+                }
+                &:focus {
+                    color: #98eaff;
+                }
+                }
+        }
+        .date {
+            font-size: 15px;
+        }
+    }
+
+    .content {
+        p {
+            font-size: 18px;
+            font-family: 'Gilroy', sans-serif;
+            line-height: 180%;
+            max-width: 1200px;
+            min-width: 300px;
+            text-indent: 30px;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+    }
+
+    h3 {
+        margin-top: 40px;
+    }
+
+    .files {
+        
+
+        p {
+            font-size: 18px;
+            font-family: 'Gilroy', sans-serif;
+            font-weight: 500;
+            line-height: 160%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .small_info {
+        display: flex;
+        flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .tags {
+        display: flex; /* Меняем на flex, чтобы элементы оставались в строке */
+        flex-wrap: wrap; /* Разрешаем перенос элементов на новую строку */
+        gap: 10px;
+    }
+
+    .tags a {
+        font-family: 'Gilroy';
+        font-weight: normal;
+        font-size: 16px;
+        color: #7495BB;
+        transition: all .2s ease;
+
+        &:hover {
+            color: #4c617a;
+        }
+        &:focus {
+            color: #98eaff;
+        }
+    }
+
+    .date {
+        font-size: 15px;
+    }
+}

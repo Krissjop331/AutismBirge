@@ -1,0 +1,106 @@
+.footer {
+    width: 100%;
+    min-height: 200px;
+    padding-top: 50px;
+    height: auto;
+    background: #373535;
+    display: flex;
+    align-items: center;
+    color: #9B9A9A !important;
+    font-size: 18px;
+    
+    
+    margin-top: auto;
+    /* bottom: 0;
+    position: fixed; */
+}
+
+.footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1432px;
+}
+
+.footer_logo {
+    background-image: url('../../img/footer_logo.svg');
+    width: 100px;
+    height: 124px;
+}
+
+.footer_menu {
+    width: 100px;
+    height: 173px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.footer li a {
+    color: #9B9A9A;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer li a:hover {
+    color: #FFF;
+    /* font-weight: 600; */
+    /* transition: font-weight 0.3s ease; */
+}
+
+.social {
+    display: flex;
+    width: 146px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.social_icon {
+    color: #BABABA;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.social_icon:hover {
+    color: #FFF;   
+}
+
+/* .facebook-icon:hover {
+    color: white;
+  } */
+
+.up_button {
+    background-image: url('../../img/Up.png');
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.up_button:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 391px) {
+    .footer {
+        height: 653px;
+        align-items: center;
+    }
+
+    .footer .wrapper {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .footer ul {
+        gap: 20px;
+    }
+  }

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.722ca221.css",
+    "main.js": "/static/js/main.8e9fe1ad.js",
+    "static/media/Gilroy-Medium.ttf": "/static/media/Gilroy-Medium.f9f832b0ed3f1ab138c9.ttf",
+    "static/media/footer_logo.svg": "/static/media/footer_logo.555bad8b55ce78033ce3.svg",
+    "static/media/white_logo.svg": "/static/media/white_logo.b1d00239401b34d5aa99.svg",
+    "static/media/black_logo_mobile.svg": "/static/media/black_logo_mobile.2bb607e3cee1c174c0186511bd2bfeee.svg",
+    "static/media/logo.svg": "/static/media/logo.be78cecd9227a74b0528166a16bd98a7.svg",
+    "static/media/like-svgrepo-com.svg": "/static/media/like-svgrepo-com.5230dea0b1ed342920b135a513fff1d7.svg",
+    "index.html": "/index.html",
+    "static/media/burger-menu_black.svg": "/static/media/burger-menu_black.65487c942b1ff6abaf72.svg",
+    "static/media/burger-menu.svg": "/static/media/burger-menu.5d080d6a8702e31c4269.svg",
+    "main.722ca221.css.map": "/static/css/main.722ca221.css.map",
+    "main.8e9fe1ad.js.map": "/static/js/main.8e9fe1ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.722ca221.css",
+    "static/js/main.8e9fe1ad.js"
+  ]
+}

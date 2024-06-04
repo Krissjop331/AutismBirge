@@ -1,0 +1,45 @@
+.users_apllications{
+  border: 2px solid #192E47;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.select_applications {
+  border: solid 2px #192E47;
+    border-radius: 2px;
+    margin-right: 10px; 
+}
+
+.users_apllications button{
+  
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1A2E47;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.select_containers select{
+  border-radius: 5px;
+  margin-right: 20px;
+  border: #1A2E47 2px solid;
+  padding: 10px;
+  box-sizing: border-box;
+} 
+
+.containers_apllication{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}

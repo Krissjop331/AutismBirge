@@ -1,0 +1,116 @@
+.adminForum {
+    margin-top: 30px;
+  }
+  
+  .forumHead {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .adminForum h2 {
+    margin-bottom: 30px;
+  }
+
+  .adminforumItem {
+    display: grid;
+    grid-template-columns: 50px 250px 1fr 150px;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .adminforumItem.head {
+    font-weight: 600;
+    background-color: #f9f9f9;
+  }
+  
+  .adminforumItem p {
+    margin: 0;
+  }
+  
+  .forumId,
+  .forumTitle,
+  .forumDescription,
+  .forumCreateDate {
+    padding: 10px 0;
+  }
+  
+  /* Adjustments for Smaller Screens */
+  @media (max-width: 768px) {
+    .adminforumItem {
+      grid-template-columns: 1fr;
+      text-align: left;
+    }
+  
+    .adminButtonGroups {
+      grid-column: span 4;
+      justify-content: flex-start;
+    }
+  }
+  
+  /* Button Groups and Styles */
+  .adminButtonGroups {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .adminforumItem input,
+  .modal-overlay button {
+    width: auto;
+    background: #1A2E47;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .adminforumItem input:hover,
+  .modal-overlay button:hover {
+    background: #FFF;
+    color: #1A2E47;
+  }
+  
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+  }
+  
+  .modal-overlay p {
+    margin-bottom: 20px;
+  }
+  
+  .modalBtnGroups {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modal-overlay button {
+    width: 150px;
+  }
+  
+  .createForumBtn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+  }

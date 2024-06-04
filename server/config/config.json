@@ -1,0 +1,29 @@
+{
+    "development": {
+        "username": "root",
+        "password": "",
+        "database": "authism_birge",
+        "host": "localhost",
+        "port": "3306",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": "",
+        "database": "authism_birge",
+        "host": "localhost",
+        "port": "3306",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": "",
+        "database": "authism_birge",
+        "host": "localhost",
+        "port": "3306",
+        "dialect": "mysql"
+    },
+    "globalPrefix": "api",
+    "secretKey": "secret_keyddds"
+}
+
